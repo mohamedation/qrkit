@@ -40,6 +40,7 @@ rasteriser, is implemented from scratch on top of the Go standard library. The
 - **Library-friendly**: small functional-options API, sentinel errors for `errors.Is`,
   immutable and goroutine-safe results, no global state, no `init` side effects.
 - A handy **CLI** (`cmd/qrkit`).
+- To try on a web app, You can visit [Q](https://q.mohamedation.com), The Easy, No fuss, QR Code Generator.
 
 ## Install
 
