@@ -6,11 +6,7 @@ adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
-### Fixed
-- `QRCode.Save` writes to a temporary file and replaces the destination only
-  on success, so a failed write no longer leaves a partial file.
-
-## [0.1.0] - 2026-09-18
+## [1.0.0] - 2026-09-20
 
 ### Added
 - QR Code Model 2 encoder: versions 1-40, error-correction levels L/M/Q/H,
@@ -23,5 +19,9 @@ adheres to [Semantic Versioning](https://semver.org/).
   error-correction budget check and automatic version bump.
 - `qrkit` command-line tool.
 
-[Unreleased]: https://github.com/mohamedation/qrkit/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/mohamedation/qrkit/releases/tag/v0.1.0
+### Fixed
+- `QRCode.Save` writes to a temporary file and replaces the destination only
+  on success, so a failed write no longer leaves a partial file.
+
+[Unreleased]: https://github.com/mohamedation/qrkit/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/mohamedation/qrkit/releases/tag/v1.0.0
